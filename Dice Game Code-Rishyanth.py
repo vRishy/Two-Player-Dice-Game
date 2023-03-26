@@ -318,7 +318,7 @@ while Round<=5:
 def Leaderboard():
     
     import mysql.connector as sqltor   # Imports database programming package
-    mycon=sqltor.connect(host="localhost",user="root",passwd="Rishy@1307",database="DropDead")
+    mycon=sqltor.connect(host="localhost",user="root",passwd="DbDice",database="DropDead")
     # Establishes connecton with the database dropdead stored in mysql
     mycursor=mycon.cursor()   #  Creates a cursor instance that is used to execute queries on the database
     
